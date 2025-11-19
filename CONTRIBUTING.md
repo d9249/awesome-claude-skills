@@ -1,185 +1,184 @@
-# Contributing to Awesome Claude Skills
+# Awesome Claude Skills에 기여하기
 
-Thank you for your interest in contributing to the premier collection of Claude Skills! This guide will help you add new skills that benefit the entire Claude community.
+Claude Skills의 프리미어 컬렉션에 기여하는 것에 관심을 가져주셔서 감사합니다! 이 가이드는 전체 Claude 커뮤니티에 도움이 되는 새로운 스킬을 추가하는 데 도움이 될 것입니다.
 
-## Before You Start
+## 시작하기 전에
 
-- Ensure your skill is based on a **real use case**, not a hypothetical scenario.
-- Search existing skills to avoid duplicates.
-- If possible, attribute the use case to the original person or source.
+- 스킬이 가상의 시나리오가 아닌 **실제 사용 사례**를 기반으로 하는지 확인하세요.
+- 중복을 피하기 위해 기존 스킬을 검색하세요.
+- 가능하면 원래 사람이나 출처에 대한 사용 사례를 언급하세요.
 
-## Skill Requirements
+## 스킬 요구 사항
 
-All skills must:
+모든 스킬은 다음을 충족해야 합니다:
 
-1. **Solve a real problem** - Based on actual usage, not theoretical applications.
-2. **Be well-documented** - Include clear instructions, examples, and use cases.
-3. **Be accessible** - Written for non-technical users when possible.
-4. **Include examples** - Show practical, real-world usage.
-5. **Be tested** - Verify the skill works across Claude.ai, Claude Code, and/or API.
-6. **Be safe** - Confirm before destructive operations.
-7. **Be portable** - Work across Claude platforms when applicable.
+1. **실제 문제 해결** - 이론적 응용이 아닌 실제 사용을 기반으로 합니다.
+2. **잘 문서화됨** - 명확한 지침, 예제 및 사용 사례를 포함합니다.
+3. **접근 가능** - 가능한 경우 비기술 사용자를 위해 작성됩니다.
+4. **예제 포함** - 실용적이고 실제적인 사용법을 보여줍니다.
+5. **테스트됨** - Claude.ai, Claude Code 및/또는 API에서 스킬이 작동하는지 확인합니다.
+6. **안전함** - 파괴적인 작업 전에 확인합니다.
+7. **이식 가능** - 해당되는 경우 Claude 플랫폼 전체에서 작동합니다.
 
-## Skill Structure
+## 스킬 구조
 
-Create a new folder with your skill name (use lowercase and hyphens):
+스킬 이름으로 새 폴더를 생성합니다(소문자와 하이픈 사용):
 
 ```
 skill-name/
 └── SKILL.md
 ```
 
-## SKILL.md Template
+## SKILL.md 템플릿
 
-Use this template for your skill:
+스킬에 이 템플릿을 사용하세요:
 
 ```markdown
 ---
 name: skill-name
-description: One-sentence description of what this skill does and when to use it.
+description: 이 스킬이 무엇을 하고 언제 사용하는지에 대한 한 문장 설명.
 ---
 
 # Skill Name
 
-Detailed description of the skill and what it helps users accomplish.
+스킬과 사용자가 수행하는 데 도움이 되는 것에 대한 자세한 설명.
 
-## When to Use This Skill
+## 언제 이 스킬을 사용하는가
 
-- Bullet point use case 1
-- Bullet point use case 2
-- Bullet point use case 3
+- 사용 사례 1
+- 사용 사례 2
+- 사용 사례 3
 
-## What This Skill Does
+## 이 스킬이 하는 일
 
-1. **Capability 1**: Description
-2. **Capability 2**: Description
-3. **Capability 3**: Description
+1. **기능 1**: 설명
+2. **기능 2**: 설명
+3. **기능 3**: 설명
 
-## How to Use
+## 사용 방법
 
-### Basic Usage
-
-```
-Simple example prompt
-```
-
-### Advanced Usage
+### 기본 사용법
 
 ```
-More complex example prompt with options
+간단한 예제 프롬프트
 ```
 
-## Example
+### 고급 사용법
 
-**User**: "Example prompt"
-
-**Output**:
 ```
-Show what the skill produces
+옵션이 포함된 더 복잡한 예제 프롬프트
 ```
 
-**Inspired by:** [Attribution to original source, if applicable]
+## 예제
 
-## Tips
+**사용자**: "예제 프롬프트"
 
-- Tip 1
-- Tip 2
-- Tip 3
-
-## Common Use Cases
-
-- Use case 1
-- Use case 2
-- Use case 3
+**출력**:
+```
+스킬이 생성하는 것을 보여줍니다
 ```
 
-## Adding Your Skill to README
+**영감을 받은 곳:** [해당되는 경우 원본 출처에 대한 언급]
 
-1. Choose the appropriate category:
-   - Business & Marketing
-   - Communication & Writing
-   - Creative & Media
-   - Development
-   - Productivity & Organization
+## 팁
 
-2. Add your skill in alphabetical order within the category:
+- 팁 1
+- 팁 2
+- 팁 3
+
+## 일반적인 사용 사례
+
+- 사용 사례 1
+- 사용 사례 2
+- 사용 사례 3
+```
+
+## README에 스킬 추가하기
+
+1. 적절한 카테고리를 선택합니다:
+   - 비즈니스 및 마케팅
+   - 커뮤니케이션 및 글쓰기
+   - 크리에이티브 및 미디어
+   - 개발
+   - 생산성 및 조직
+
+2. 카테고리 내에서 알파벳 순서로 스킬을 추가합니다:
 
 ```markdown
-- [Skill Name](./skill-name/) - One-sentence description. Inspired by [Person/Source].
+- [Skill Name](./skill-name/) - 한 문장 설명. [Person/Source]에서 영감을 받았습니다.
 ```
 
-3. Follow the existing format exactly - no emojis, consistent punctuation.
+3. 기존 형식을 정확히 따릅니다 - 이모지 없이, 일관된 구두점.
 
-## Pull Request Process
+## Pull Request 프로세스
 
-1. Fork the repository
-2. Create a branch: `git checkout -b add-skill-name`
-3. Add your skill folder with SKILL.md
-4. Update README.md with your skill in the appropriate category
-5. Commit your changes: `git commit -m "Add [Skill Name] skill"`
-6. Push to your fork: `git push origin add-skill-name`
-7. Open a Pull Request
+1. 저장소를 포크합니다
+2. 브랜치를 생성합니다: `git checkout -b add-skill-name`
+3. SKILL.md가 있는 스킬 폴더를 추가합니다
+4. 적절한 카테고리에 스킬을 추가하여 README.md를 업데이트합니다
+5. 변경 사항을 커밋합니다: `git commit -m "Add [Skill Name] skill"`
+6. 포크로 푸시합니다: `git push origin add-skill-name`
+7. Pull Request를 엽니다
 
-## Pull Request Guidelines
+## Pull Request 가이드라인
 
-Your PR should:
+PR은 다음을 포함해야 합니다:
 
-- **Title**: "Add [Skill Name] skill"
-- **Description**: Explain the real-world use case and include:
-  - What problem it solves
-  - Who uses this workflow
-  - Attribution/inspiration source
-  - Example of how it's used
+- **제목**: "Add [Skill Name] skill"
+- **설명**: 실제 사용 사례를 설명하고 다음을 포함합니다:
+  - 해결하는 문제
+  - 이 워크플로우를 사용하는 사람
+  - 언급/영감 출처
+  - 사용 방법 예제
 
-## Code of Conduct
+## 행동 강령
 
-- Be respectful and constructive
-- Credit original sources and inspirations
-- Focus on practical, helpful skills
-- Write clear, accessible documentation
-- Test your skills before submitting
+- 존중하고 건설적으로 행동합니다
+- 원본 출처와 영감을 명시합니다
+- 실용적이고 유용한 스킬에 집중합니다
+- 명확하고 접근 가능한 문서를 작성합니다
+- 제출하기 전에 스킬을 테스트합니다
 
-## Questions?
+## 질문이 있으신가요?
 
-Open an issue if you have questions about contributing or need help structuring your skill.
+기여에 대한 질문이 있거나 스킬을 구조화하는 데 도움이 필요한 경우 이슈를 열어주세요.
 
-## Attribution
+## 언급
 
-When adding a skill based on someone's workflow or use case, include proper attribution:
+누군가의 워크플로우나 사용 사례를 기반으로 스킬을 추가할 때는 적절한 언급을 포함하세요:
 
 ```markdown
-**Inspired by:** [Person Name]'s workflow
+**영감을 받은 곳:** [Person Name]의 워크플로우
 ```
 
-or
+또는
 
 ```markdown
-**Credit:** Based on [Company/Team]'s process
+**크레딧:** [Company/Team]의 프로세스를 기반으로 합니다
 ```
 
-Examples:
-- **Inspired by:** Dan Shipper's meeting analysis workflow
-- **Inspired by:** Teresa Torres's content research process
-- **Credit:** Based on Notion's documentation workflow
+예제:
+- **영감을 받은 곳:** Dan Shipper의 회의 분석 워크플로우
+- **영감을 받은 곳:** Teresa Torres의 콘텐츠 연구 프로세스
+- **크레딧:** Notion의 문서 워크플로우를 기반으로 합니다
 
-## Skill Categories
+## 스킬 카테고리
 
-### Business & Marketing
-Skills for lead generation, competitive research, branding, and business development.
+### 비즈니스 및 마케팅
+리드 생성, 경쟁 연구, 브랜딩 및 비즈니스 개발을 위한 스킬.
 
-### Communication & Writing
-Skills for improving communication, analyzing conversations, and creating content.
+### 커뮤니케이션 및 글쓰기
+커뮤니케이션 개선, 대화 분석 및 콘텐츠 작성을 위한 스킬.
 
-### Creative & Media
-Skills for working with images, videos, audio, and creative content.
+### 크리에이티브 및 미디어
+이미지, 비디오, 오디오 및 크리에이티브 콘텐츠 작업을 위한 스킬.
 
-### Development
-Skills for software development, documentation, and technical workflows.
+### 개발
+소프트웨어 개발, 문서화 및 기술 워크플로우를 위한 스킬.
 
-### Productivity & Organization
-Skills for organizing files, managing tasks, and personal productivity.
+### 생산성 및 조직
+파일 정리, 작업 관리 및 개인 생산성을 위한 스킬.
 
 ---
 
-Thank you for contributing to Awesome Claude Skills!
-
+Awesome Claude Skills에 기여해 주셔서 감사합니다!
